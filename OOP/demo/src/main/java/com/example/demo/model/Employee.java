@@ -13,6 +13,10 @@ import javax.annotation.Generated;
 @Setter
 @AllArgsConstructor
 
+//Employee Inherits EmployeeImpl
+
+//Encapsulation - wrapping data into a single unit and protecting the data by restricting direct access from other classes
+//The properties of the class are private and external classes can only access the through getters and setters
 public class Employee extends EmployeeImpl {
     private String name;
     private String surname;
