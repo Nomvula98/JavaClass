@@ -7,6 +7,8 @@ import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
+
+//2. enter your date of birth and find out how may days you spend already in planet earth
 public class DateOfBirth {
 
     public void daysLived(String dateString) throws ParseException {

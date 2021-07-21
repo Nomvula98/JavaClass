@@ -1,5 +1,5 @@
 public class DecimalCheck {
-    //get the input from user and
+    //1.  the input from user and
 // print them one by one as complete number before and after
 // decimal check if both part are same then print "identical"
 

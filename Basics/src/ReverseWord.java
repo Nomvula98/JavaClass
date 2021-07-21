@@ -1,3 +1,7 @@
+
+
+//3.  Pass the name and revers it without using String revers method
+
 public class ReverseWord {
     void reverseString(String input, String tempStr, String newStr) {
         for (int i=0; i <= input.length()-1; i++ ){
