@@ -1,6 +1,6 @@
 package com.example.demo.model;
 
-import com.example.demo.service.EmployeeImpl;
+
 import com.example.demo.service.IEmployeeService;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,11 +13,11 @@ import javax.annotation.Generated;
 @Setter
 @AllArgsConstructor
 
-//Employee Inherits EmployeeImpl
+//Employee implements EmployeeImpl
 
 //Encapsulation - wrapping data into a single unit and protecting the data by restricting direct access from other classes
 //The properties of the class are private and external classes can only access the through getters and setters
-public class Employee extends EmployeeImpl {
+public class Employee implements IEmployeeService {
     private String name;
     private String surname;
     private String employeeNo;
@@ -25,7 +25,7 @@ public class Employee extends EmployeeImpl {
     private String department;
 
 
-    @Override
+    
     public String toString() {
         return "Employee{" +
                 "name='" + name + '\'' +
@@ -36,8 +36,29 @@ public class Employee extends EmployeeImpl {
                 '}';
     }
 
-    @Override
+
     public String doWork(String department) {
-        return super.doWork(department);
+        return "I am an employee, I work in the "+ department+ " department";
     }
+
+
+    public String supervise() {
+        return "I am the Principal, I supervise the school";
+    }
+
+
+    public String coordinate() {
+        return "I am the Princial, I coordinate things in the school";
+    }
+
+
+    public String teach() {
+        return "I teach students";
+    }
+
+
+    public String train() {
+        return "I train students";
+    }
+
 }

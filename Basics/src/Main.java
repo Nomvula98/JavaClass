@@ -8,13 +8,12 @@ public class Main {
 
         System.out.println("--------------------1. Decimals---------------------------------");
         //Check for decimals
-        System.out.println("Enter a value: ");
+        System.out.println("Enter a decimal value: ");
         Scanner sc4 = new Scanner(System.in);
-        String inputValue = sc4.next();
-        Float value = Float.parseFloat(inputValue);
+        Double inputValue = sc4.nextDouble();
         //Create an object and invoke the checkDecimal method which has 1 Parameter
         DecimalCheck dc = new DecimalCheck();
-        dc.checkDecimal(inputValue);
+        dc.splitValue(inputValue);
 
         System.out.println("---------------------2. DOB-------------------------------------");
         //Date of birth
