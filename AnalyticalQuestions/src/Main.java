@@ -75,6 +75,6 @@ public class Main {
         double difference = data.findDifferenceMaxMin(highestPeak, lowestValley);
         System.out.println("The difference between highestPeak and lowestValley is: "+ difference);
 
-
+        data.countNumberOfRises(list);
     }
 }

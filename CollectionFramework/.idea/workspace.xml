@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d5d586-ebf0-46c2-af13-a5e44ec8a4fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/AnalyticalQuestions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CollectionFramework/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionFramework/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CollectionFramework/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionFramework/Student.class" afterDir="false" />
@@ -63,6 +57,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -79,7 +84,7 @@
       <updated>1627635105277</updated>
       <workItem from="1627635107469" duration="17800000" />
       <workItem from="1627661541501" duration="11936000" />
-      <workItem from="1628248046870" duration="2205000" />
+      <workItem from="1628248046870" duration="7628000" />
     </task>
     <servers />
   </component>

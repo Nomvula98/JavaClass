@@ -1,36 +1,31 @@
-import java.util.Objects;
+import java.io.*;
+import java.util.*;
 
 
 public class Student implements Comparable<Student> {
     private String name;
     private String surname;
-    private String id;
+    private int id;
     private Character grade;
     private char gender;
     private String courseName;
+    private String email;
+    private String cellNo;
 
-    public String getName() {
-        return name;
+    public String getEmail() {
+        return email;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getCellNo() {
+        return cellNo;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
+    public void setCellNo(String cellNo) {
+        this.cellNo = cellNo;
     }
 
     public Character getGrade() {
@@ -41,35 +36,21 @@ public class Student implements Comparable<Student> {
         this.grade = grade;
     }
 
-    public char getGender() {
-        return gender;
-    }
-
-    public void setGender(char gender) {
-        this.gender = gender;
-    }
-
-    public String getCourseName() {
-        return courseName;
-    }
-
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
-
     @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-                ", id='" + id + '\'' +
+                ", id=" + id +
                 ", grade=" + grade +
                 ", gender=" + gender +
                 ", courseName='" + courseName + '\'' +
+                ", email='" + email + '\'' +
+                ", cellNo='" + cellNo + '\'' +
                 '}';
     }
 
-    public Student(String name, String surname, String id, char grade, char gender, String courseName) {
+    public Student(String name, String surname, int id, Character grade, char gender, String courseName) {
         this.name = name;
         this.surname = surname;
         this.id = id;
@@ -78,21 +59,17 @@ public class Student implements Comparable<Student> {
         this.courseName = courseName;
     }
 
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Student)) return false;
         Student student = (Student) o;
-        return getGender() == student.getGender() && getName().equals(student.getName()) &&
-                getSurname().equals(student.getSurname()) && getId().equals(student.getId()) &&
-                getGrade().equals(student.getGrade()) && getCourseName().equals(student.getCourseName());
+        return id == student.id && gender == student.gender && name.equals(student.name) && surname.equals(student.surname) && getGrade().equals(student.getGrade()) && courseName.equals(student.courseName) && getEmail().equals(student.getEmail()) && getCellNo().equals(student.getCellNo());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getName(), getSurname(), getId(), getGrade(), getGender(), getCourseName());
+        return Objects.hash(name, surname, id, getGrade(), gender, courseName, getEmail(), getCellNo());
     }
 
     @Override
@@ -100,5 +77,53 @@ public class Student implements Comparable<Student> {
         return this.grade.compareTo(o.getGrade());
     }
 
+    public void printAll(LinkedHashSet ls){
+        System.out.println("----------------------Printing all students------------------------\n");
 
-}
+        //List all Students
+        Iterator<Student> itr= ls.iterator();
+        while(itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+    }
+    public void printRemaining(LinkedHashSet ls){
+        System.out.println("\n-------------------Printing remaining students after removing one---------------\n");
+        Iterator<Student> itr2= ls.iterator();
+        while(itr2.hasNext()) {
+            System.out.println(itr2.next());
+        }
+    }
+    public void sortWithGrade(TreeSet ts){
+        System.out.println("\n-------------------Printing student with Grade 'B'-------------------\n");
+        Iterator<Student> itr4= ts.iterator();
+
+        while(itr4.hasNext()) {
+            Student next = itr4.next();
+            if ((next.getGrade().equals('B'))){
+                System.out.println(next);
+            }
+        }
+    }
+    public void saveToFile(Student o){
+        try
+        {
+            File file = new File("Proof of registration.txt");
+            FileOutputStream fileOutputStream = new FileOutputStream(file);
+            PrintWriter printWriter = new PrintWriter(fileOutputStream);
+            String s = o.toString();
+
+            printWriter.write(s);
+            printWriter.flush();
+            fileOutputStream.close();
+            fileOutputStream.close();
+            System.out.println("Output Written to file");
+        }
+
+        catch(IOException ex)
+        {
+            ex.printStackTrace();
+        }
+
+    }
+    }
+
