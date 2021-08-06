@@ -51,8 +51,6 @@ public class Main {
 
         //Saving file as 'Proof of registration'
         student1.saveToFile(student1);
-        student2.saveToFile(student2);
-        student3.saveToFile(student3);
-        student4.saveToFile(student4);
+
     }
 }

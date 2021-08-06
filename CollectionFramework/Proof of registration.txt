@@ -1,0 +1,1 @@
+Student{name='Nomvula', surname='Skosana', id=4, grade=A, gender=F, courseName='IT', email='null', cellNo='null'}

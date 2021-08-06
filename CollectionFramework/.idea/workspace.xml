@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4d5d586-ebf0-46c2-af13-a5e44ec8a4fc" name="Default Changelist" comment="">
+    <list default="true" id="b4d5d586-ebf0-46c2-af13-a5e44ec8a4fc" name="Default Changelist" comment="Saved student details to .txt file">
+      <change afterPath="$PROJECT_DIR$/Proof of registration.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CollectionFramework/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionFramework/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CollectionFramework/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionFramework/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1w1nkBc3W6pSUaTBJcBYOLvi4lY" />
@@ -84,8 +83,16 @@
       <updated>1627635105277</updated>
       <workItem from="1627635107469" duration="17800000" />
       <workItem from="1627661541501" duration="11936000" />
-      <workItem from="1628248046870" duration="7628000" />
+      <workItem from="1628248046870" duration="7948000" />
     </task>
+    <task id="LOCAL-00001" summary="Saved student details to .txt file">
+      <created>1628279749294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628279749294</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Saved student details to .txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saved student details to .txt file" />
   </component>
 </project>
