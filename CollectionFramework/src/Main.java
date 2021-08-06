@@ -13,7 +13,7 @@ public class Main {
        Student student2 = new Student("Portia", "Klark", "222000", 'B', 'F', "Web dev");
        Student student3 = new Student("Linda", "Mahlangu", "333000", 'D', 'M', "Analyst");
        Student student4 = new Student("Kilo", "Beith", "444000", 'C', 'M', "BA");
-       Student student5 = new Student("Bella", "Creg", "111000", 'E', 'F', "SA");
+       Student student5 = new Student("Bella", "Creg", "111000", 'A', 'F', "SA");
 
         //Adding student to a hash table
         ls.add(student1);
@@ -28,8 +28,8 @@ public class Main {
         while(itr.hasNext()) {
             System.out.println(itr.next());
         }
-        //Removing student1
-        ls.remove(student1);
+        //Removing student3
+        ls.remove(student3);
 
         System.out.println("\n-------------------Printing remaining students after removing one---------------\n");
         Iterator<Student> itr2= ls.iterator();
@@ -62,15 +62,6 @@ public class Main {
             if ((next.getGrade().equals('B'))){
                 System.out.println(next);
             }
-
-
         }
-
-
-
-
-
-
-
     }
 }

@@ -1,5 +1,6 @@
 import java.util.Objects;
 
+
 public class Student implements Comparable<Student> {
     private String name;
     private String surname;
@@ -77,12 +78,16 @@ public class Student implements Comparable<Student> {
         this.courseName = courseName;
     }
 
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Student)) return false;
         Student student = (Student) o;
-        return getGrade() == student.getGrade() && getGender() == student.getGender() && Objects.equals(getName(), student.getName()) && Objects.equals(getSurname(), student.getSurname()) && Objects.equals(getId(), student.getId()) && Objects.equals(getCourseName(), student.getCourseName());
+        return getGender() == student.getGender() && getName().equals(student.getName()) &&
+                getSurname().equals(student.getSurname()) && getId().equals(student.getId()) &&
+                getGrade().equals(student.getGrade()) && getCourseName().equals(student.getCourseName());
     }
 
     @Override
@@ -94,4 +99,6 @@ public class Student implements Comparable<Student> {
     public int compareTo(Student o) {
         return this.grade.compareTo(o.getGrade());
     }
+
+
 }

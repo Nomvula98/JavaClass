@@ -2,43 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d5d586-ebf0-46c2-af13-a5e44ec8a4fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CollectionFramework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception Handling/ExceptionHandling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java Basics/Repositories.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/Repositories.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/out/production/Repositories/DateOfBirth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/out/production/Repositories/DecimalCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/out/production/Repositories/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/out/production/Repositories/ReverseWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/src/DateOfBirth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/src/DecimalCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basics/src/ReverseWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/ExceptionHandling.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/out/production/ExceptionHandling/ExceptionHandlingExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/out/production/ExceptionHandling/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/src/ExceptionHandlingExamples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExceptionHandling/src/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/AnalyticalQuestions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/out/production/AnalyticalQuestions/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CollectionFramework/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionFramework/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CollectionFramework/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionFramework/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -79,17 +59,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CollectionFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,6 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1627635105277</updated>
       <workItem from="1627635107469" duration="17800000" />
+      <workItem from="1627661541501" duration="11936000" />
+      <workItem from="1628248046870" duration="2205000" />
     </task>
     <servers />
   </component>
@@ -125,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
