@@ -118,7 +118,6 @@ public class Student implements Comparable<Student> {
             fileOutputStream.close();
             System.out.println("Output Written to file");
         }
-
         catch(IOException ex)
         {
             ex.printStackTrace();

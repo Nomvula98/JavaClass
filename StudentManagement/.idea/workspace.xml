@@ -2,32 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d5d586-ebf0-46c2-af13-a5e44ec8a4fc" name="Default Changelist" comment="Saved student details to .txt file">
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/CollectionFramework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/Proof of registration.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/out/production/CollectionFramework/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/out/production/CollectionFramework/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentManagement/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proof of registration.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CollectionFramework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CollectionFramework/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CollectionFramework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proof of registration.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CollectionFramework/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CollectionFramework/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/CollectionFramework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/Proof of registration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/out/production/CollectionFramework/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/out/production/CollectionFramework/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/src/Student.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StudentManagement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -75,17 +75,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CollectionFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,7 +95,8 @@
       <updated>1627635105277</updated>
       <workItem from="1627635107469" duration="17800000" />
       <workItem from="1627661541501" duration="11936000" />
-      <workItem from="1628248046870" duration="9934000" />
+      <workItem from="1628248046870" duration="7948000" />
+      <workItem from="1628281907214" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="Saved student details to .txt file">
       <created>1628279749294</created>
@@ -115,14 +105,7 @@
       <option name="project" value="LOCAL" />
       <updated>1628279749294</updated>
     </task>
-    <task id="LOCAL-00002" summary="Saved student details to .txt file">
-      <created>1628280043697</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1628280043697</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

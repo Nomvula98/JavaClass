@@ -26,15 +26,7 @@ public class Data {
             System.out.println(highValue);
         }
 
-    }
-    public void countNumberOfRises(LinkedList list) {
 
-        for (Object highValue : list) {
-            int count=0;
-
-            System.out.println(highValue);
-             count++;
-        }
 
     }
 }

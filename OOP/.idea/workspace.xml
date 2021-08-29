@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cdf993-c44a-4cec-ab41-1bba9a958a88" name="Default Changelist" comment="" />
+    <list default="true" id="40cdf993-c44a-4cec-ab41-1bba9a958a88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/CollectionFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/Proof of registration.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/out/production/CollectionFramework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/out/production/CollectionFramework/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagement/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnalyticalQuestions/src/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/CollectionFramework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/Proof of registration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/out/production/CollectionFramework/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/out/production/CollectionFramework/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFramework/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
