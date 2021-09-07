@@ -8,42 +8,42 @@ import org.springframework.http.HttpEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/v1/student")
 
 public class StudentController {
 
-    StudentService studentService = new StudentService();
 
     StudentRepository studentRepository;
     //Adding a student Object to the ArrayList
     @PostMapping("/add")
-    public ArrayList<Student> addStudent(@RequestBody Student student) {
-        ArrayList studentList = studentService.addStudent(student);
+    public List<Student> addStudent(@RequestBody Student student) {
+        List<Student> studentList = studentRepository.addStudent(student);
         return studentList;
 
     }
 
     @GetMapping("/all")
-   public ArrayList<Student> getAllStudents(){
-        ArrayList studentList = studentService.getAllStudents();
+   public List<Student> getAllStudents(){
+        List<Student> studentList = studentRepository.getAllStudents();
         return studentList;
     }
 
     @PutMapping("/update")
-    public ArrayList<Student> updateStudent(@RequestBody Student student){
-        ArrayList studentList = studentService.updateStudent(student);
+    public List<Student> updateStudent(@RequestBody Student student){
+        List<Student> studentList = studentRepository.updateStudent(student);
         return studentList;
     }
 
     @DeleteMapping("/delete/{id}")
     public void studentDelete(@PathVariable("id") Long id){
-        studentService.deleteStudent(id);
+        studentRepository.deleteStudent(id);
     }
 
 @GetMapping("/find/{id}")
-    public ArrayList<Student> findEmployeeById(@PathVariable("id") Long id) {
+    public List<Student> findEmployeeById(@PathVariable("id") Long id) {
         return studentRepository.findEmployeeById(id);
     }
 }

@@ -27,11 +27,11 @@ public class Student {
     public Student() {
     }
 
-    public Student(String name, String surname, String cellPhone, Long studentId) {
+    public Student(String name, String surname, String cellPhone) {
         this.name = name;
         this.surname = surname;
         this.cellPhone = cellPhone;
-        this.studentId = studentId;
+
     }
 
     public String getName() {
@@ -66,19 +66,5 @@ public class Student {
         this.studentId = studentId;
     }
 
-   /* public Map<String, String> getSubject() {
-        return subject;
-    }
 
-    public void setSubjects(Map<String, String> subject) {
-        this.subject = subject;
-    }
-
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }*/
 }
