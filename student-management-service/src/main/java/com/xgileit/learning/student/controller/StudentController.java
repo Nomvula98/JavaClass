@@ -10,42 +10,61 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This is a controller for Creating, Reading, Updating and Deleting a student
+ */
 @RestController
 @RequestMapping(value = "/api/v1/student")
-
 public class StudentController {
 
-
     StudentRepository studentRepository;
-    //Adding a student Object to the ArrayList
+
+    /**
+     * End-point for adding a student to the list
+     *
+     * @param student which represents a Student
+     * @return a list of students
+     */
     @PostMapping("/add")
     public List<Student> addStudent(@RequestBody Student student) {
         List<Student> studentList = studentRepository.addStudent(student);
         return studentList;
-
     }
 
+    /**
+     * End-point for retrieving all students from the list
+     *
+     * @return a list of students
+     */
     @GetMapping("/all")
    public List<Student> getAllStudents(){
         List<Student> studentList = studentRepository.getAllStudents();
         return studentList;
     }
 
+    /**
+     * End-point for updating a students in the list
+     *
+     * @param student which represents a Student
+     * @return a list of students
+     */
     @PutMapping("/update")
     public List<Student> updateStudent(@RequestBody Student student){
         List<Student> studentList = studentRepository.updateStudent(student);
         return studentList;
     }
 
+    /**
+     * End-point for deleting a students from the list
+     *
+     * @pathVariable id which represents a Student id
+     */
     @DeleteMapping("/delete/{id}")
     public void studentDelete(@PathVariable("id") Long id){
         studentRepository.deleteStudent(id);
     }
 
-@GetMapping("/find/{id}")
-    public List<Student> findEmployeeById(@PathVariable("id") Long id) {
-        return studentRepository.findEmployeeById(id);
-    }
+
 }
 
 

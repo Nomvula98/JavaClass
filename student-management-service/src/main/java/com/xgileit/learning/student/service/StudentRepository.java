@@ -9,11 +9,9 @@ import java.util.Optional;
 
 @Repository
 public interface StudentRepository {
-    List<Student> arrayList = new ArrayList<Student>();
+    List<Student> studentList = new ArrayList<>();
     List<Student> addStudent(Student student);
     List<Student> getAllStudents();
     List<Student> updateStudent(Student student);
     void deleteStudent(Long id);
-
-    List<Student> findEmployeeById(Long id);
 }

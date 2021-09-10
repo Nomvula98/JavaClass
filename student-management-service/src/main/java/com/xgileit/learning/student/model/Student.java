@@ -2,21 +2,22 @@ package com.xgileit.learning.student.model;
 
 
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
 
-public class Student {
+public class Student implements Serializable {
     private String name;
     private String surname;
     private String cellPhone;
     private Long studentId;
 
 
-   // private Map<String, String> subject;
-    //Address address;
+    /*private Map<String, String> subject;
+    Address address;*/
 
-    public class Address {
+    private class Address {
         private String street;
         private String city;
         private String state;
